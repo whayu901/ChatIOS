@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		7AE1E34B2B00AC1900F0F7FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E34A2B00AC1900F0F7FE /* AppDelegate.swift */; };
 		7AE1E34D2B00AC1900F0F7FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E34C2B00AC1900F0F7FE /* SceneDelegate.swift */; };
-		7AE1E34F2B00AC1900F0F7FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E34E2B00AC1900F0F7FE /* ViewController.swift */; };
+		7AE1E34F2B00AC1900F0F7FE /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E34E2B00AC1900F0F7FE /* ConversationsController.swift */; };
 		7AE1E3522B00AC1900F0F7FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE1E3502B00AC1900F0F7FE /* Main.storyboard */; };
 		7AE1E3552B00AC1900F0F7FE /* chattingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E3532B00AC1900F0F7FE /* chattingApp.xcdatamodeld */; };
 		7AE1E3572B00AC1B00F0F7FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE1E3562B00AC1B00F0F7FE /* Assets.xcassets */; };
@@ -17,6 +17,12 @@
 		7AE1E3652B00AC1C00F0F7FE /* chattingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E3642B00AC1C00F0F7FE /* chattingAppTests.swift */; };
 		7AE1E36F2B00AC1C00F0F7FE /* chattingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E36E2B00AC1C00F0F7FE /* chattingAppUITests.swift */; };
 		7AE1E3712B00AC1C00F0F7FE /* chattingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E3702B00AC1C00F0F7FE /* chattingAppUITestsLaunchTests.swift */; };
+		7AE1E3842B00B72B00F0F7FE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E3832B00B72B00F0F7FE /* LoginViewController.swift */; };
+		7AE1E3862B00B74700F0F7FE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E3852B00B74700F0F7FE /* RegisterViewController.swift */; };
+		7AE1E3882B00B76400F0F7FE /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E3872B00B76400F0F7FE /* PhotoViewerViewController.swift */; };
+		7AE1E38A2B00B77800F0F7FE /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E3892B00B77800F0F7FE /* VideoPlayerViewController.swift */; };
+		7AE1E38C2B00B78B00F0F7FE /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E38B2B00B78B00F0F7FE /* NewConversationViewController.swift */; };
+		7AE1E38E2B00B79E00F0F7FE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1E38D2B00B79E00F0F7FE /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,7 @@
 		7AE1E3472B00AC1900F0F7FE /* chattingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chattingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE1E34A2B00AC1900F0F7FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AE1E34C2B00AC1900F0F7FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7AE1E34E2B00AC1900F0F7FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AE1E34E2B00AC1900F0F7FE /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
 		7AE1E3512B00AC1900F0F7FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AE1E3542B00AC1900F0F7FE /* chattingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chattingApp.xcdatamodel; sourceTree = "<group>"; };
 		7AE1E3562B00AC1B00F0F7FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		7AE1E36A2B00AC1C00F0F7FE /* chattingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chattingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE1E36E2B00AC1C00F0F7FE /* chattingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chattingAppUITests.swift; sourceTree = "<group>"; };
 		7AE1E3702B00AC1C00F0F7FE /* chattingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chattingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7AE1E3832B00B72B00F0F7FE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7AE1E3852B00B74700F0F7FE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		7AE1E3872B00B76400F0F7FE /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		7AE1E3892B00B77800F0F7FE /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		7AE1E38B2B00B78B00F0F7FE /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		7AE1E38D2B00B79E00F0F7FE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,7 @@
 				7AE1E3482B00AC1900F0F7FE /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		7AE1E3482B00AC1900F0F7FE /* Products */ = {
 			isa = PBXGroup;
@@ -101,12 +114,11 @@
 		7AE1E3492B00AC1900F0F7FE /* chattingApp */ = {
 			isa = PBXGroup;
 			children = (
-				7AE1E34A2B00AC1900F0F7FE /* AppDelegate.swift */,
-				7AE1E34C2B00AC1900F0F7FE /* SceneDelegate.swift */,
-				7AE1E34E2B00AC1900F0F7FE /* ViewController.swift */,
-				7AE1E3502B00AC1900F0F7FE /* Main.storyboard */,
-				7AE1E3562B00AC1B00F0F7FE /* Assets.xcassets */,
-				7AE1E3582B00AC1B00F0F7FE /* LaunchScreen.storyboard */,
+				7AE1E3812B00B51200F0F7FE /* Controllers */,
+				7AE1E3802B00B4E600F0F7FE /* Views */,
+				7AE1E37F2B00B4DC00F0F7FE /* Models */,
+				7AE1E37E2B00B4D200F0F7FE /* ViewModels */,
+				7AE1E37D2B00B4C700F0F7FE /* Resources */,
 				7AE1E35B2B00AC1B00F0F7FE /* Info.plist */,
 				7AE1E3532B00AC1900F0F7FE /* chattingApp.xcdatamodeld */,
 			);
@@ -128,6 +140,61 @@
 				7AE1E3702B00AC1C00F0F7FE /* chattingAppUITestsLaunchTests.swift */,
 			);
 			path = chattingAppUITests;
+			sourceTree = "<group>";
+		};
+		7AE1E37D2B00B4C700F0F7FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1E34A2B00AC1900F0F7FE /* AppDelegate.swift */,
+				7AE1E34C2B00AC1900F0F7FE /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7AE1E37E2B00B4D200F0F7FE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7AE1E37F2B00B4DC00F0F7FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AE1E3802B00B4E600F0F7FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1E3822B00B57600F0F7FE /* StoryBoards */,
+				7AE1E3562B00AC1B00F0F7FE /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AE1E3812B00B51200F0F7FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1E34E2B00AC1900F0F7FE /* ConversationsController.swift */,
+				7AE1E3832B00B72B00F0F7FE /* LoginViewController.swift */,
+				7AE1E3852B00B74700F0F7FE /* RegisterViewController.swift */,
+				7AE1E3872B00B76400F0F7FE /* PhotoViewerViewController.swift */,
+				7AE1E3892B00B77800F0F7FE /* VideoPlayerViewController.swift */,
+				7AE1E38B2B00B78B00F0F7FE /* NewConversationViewController.swift */,
+				7AE1E38D2B00B79E00F0F7FE /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7AE1E3822B00B57600F0F7FE /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1E3502B00AC1900F0F7FE /* Main.storyboard */,
+				7AE1E3582B00AC1B00F0F7FE /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AE1E34F2B00AC1900F0F7FE /* ViewController.swift in Sources */,
+				7AE1E34F2B00AC1900F0F7FE /* ConversationsController.swift in Sources */,
 				7AE1E34B2B00AC1900F0F7FE /* AppDelegate.swift in Sources */,
+				7AE1E38E2B00B79E00F0F7FE /* ProfileViewController.swift in Sources */,
 				7AE1E34D2B00AC1900F0F7FE /* SceneDelegate.swift in Sources */,
+				7AE1E3882B00B76400F0F7FE /* PhotoViewerViewController.swift in Sources */,
+				7AE1E3862B00B74700F0F7FE /* RegisterViewController.swift in Sources */,
+				7AE1E38A2B00B77800F0F7FE /* VideoPlayerViewController.swift in Sources */,
+				7AE1E38C2B00B78B00F0F7FE /* NewConversationViewController.swift in Sources */,
+				7AE1E3842B00B72B00F0F7FE /* LoginViewController.swift in Sources */,
 				7AE1E3552B00AC1900F0F7FE /* chattingApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,11 +522,12 @@
 				DEVELOPMENT_TEAM = A9NWZ5WP4P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = chattingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyChat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -477,11 +551,12 @@
 				DEVELOPMENT_TEAM = A9NWZ5WP4P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = chattingApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MyChat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
